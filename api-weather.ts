@@ -558,6 +558,10 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       color: var(--text-primary);
     }
 
+    .last-update {
+      font-size: min(38px, 2.2vw);
+    }
+
     @media (max-aspect-ratio: 1448/1072) {
       .container {
         width: 100vw;
@@ -619,6 +623,7 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
         justify-content: flex-start;
         width: 100%;
         gap: 48px;
+        white-space: nowrap;
     }
 
     .weather-details > span {
@@ -654,7 +659,7 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
             <span class="icon">${currentIconSvg}</span>
             <span class="current-temp"><span class="temp-value">${currentTemp}</span>°C</span>
           </div>
-          <span class="current-time">${currentTime.split("|")[1].trim()}</span>
+          <span class="current-time"><span class="last-update">Last Update: </span>${currentTime.split("|")[1].trim()}</span>
         </div>
         <div class="current-condition">
             <div class="weather-details">
