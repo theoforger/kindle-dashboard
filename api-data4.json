@@ -1,1737 +1,1735 @@
 [
-    {
-        "cgndb": "IACMP",
-        "displayName": "Edmonton",
-        "zonePoly": "",
-        "lastUpdated": 1739930400,
-        "alert": {
-            "zoneId": "loc1-2366",
-            "uuid": "20250218221706817",
-            "mostSevere": "#b40000",
-            "hwyMostSevere": "",
-            "alerts": [
-                {
-                    "type": "warning",
-                    "sequence": 0,
-                    "status": "active",
-                    "transitionStatus": "continued",
-                    "issueTime": "2025-02-18T22:16:25.983Z",
-                    "timezone": "MST",
-                    "issueTimeText": "3:16 p.m. MST Tuesday 18 February 2025",
-                    "issuingOfficeTZ": "MST",
-                    "expiryTime": "2025-02-19T14:16:25.983Z",
-                    "eventOnsetTime": "2025-02-18T22:15:00.000Z",
-                    "eventEndTime": "2025-02-19T20:00:00.000Z",
-                    "alertId": "1923519011761943604202502130501",
-                    "alertCode": "ECW",
-                    "program": "public",
-                    "alertBannerText": "Extreme Cold Warning",
-                    "alertHeaderText": "Extreme Cold Warning in effect for:",
-                    "bannerColour": "#b40000",
-                    "zoneId": "loc1-2366",
-                    "zones": [
-                        "City of Edmonton - St. Albert - Sherwood Park"
-                    ],
-                    "text": "Extremely cold wind chill values near minus 40 continue tonight and Wednesday morning.\n\nTemperatures will moderate Wednesday.\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nDress warmly. Dress in layers that you can remove if you get too warm. The outer layer should be wind resistant.\n\nCover up. Frostbite can develop within minutes on exposed skin, especially with wind chill.\n\nIf it’s too cold for you to stay outside, it’s too cold for your pet to stay outside.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@ec.gc.ca, call 1-800-239-0484 or post reports on X using #ABStorm.",
-                    "special_text": [
-                        {
-                            "type": "email",
-                            "link": "ABstorm@ec.gc.ca"
-                        },
-                        {
-                            "type": "hashtag",
-                            "link": "#ABStorm"
-                        }
-                    ],
-                    "tcisURL": ""
-                }
-            ],
-            "hwyAlerts": []
-        },
-        "observation": {
-            "observedAt": "Edmonton Blatchford",
-            "provinceCode": "AB",
-            "climateId": "3012209",
-            "tcid": "xec",
-            "timeStamp": "2025-02-19T01:00:00.000Z",
-            "timeStampText": "6:00 PM MST Tuesday 18 February 2025",
-            "iconCode": "29",
-            "condition": "",
-            "temperature": {
-                "imperial": "-7",
-                "imperialUnrounded": "-7.2",
-                "metric": "-22",
-                "metricUnrounded": "-21.8",
-                "qaValue": 100
+  {
+    "cgndb": "IACMP",
+    "displayName": "Edmonton",
+    "zonePoly": "",
+    "lastUpdated": 1739930400,
+    "alert": {
+      "zoneId": "loc1-2366",
+      "uuid": "20250218221706817",
+      "mostSevere": "#b40000",
+      "hwyMostSevere": "",
+      "alerts": [
+        {
+          "type": "warning",
+          "sequence": 0,
+          "status": "active",
+          "transitionStatus": "continued",
+          "issueTime": "2025-02-18T22:16:25.983Z",
+          "timezone": "MST",
+          "issueTimeText": "3:16 p.m. MST Tuesday 18 February 2025",
+          "issuingOfficeTZ": "MST",
+          "expiryTime": "2025-02-19T14:16:25.983Z",
+          "eventOnsetTime": "2025-02-18T22:15:00.000Z",
+          "eventEndTime": "2025-02-19T20:00:00.000Z",
+          "alertId": "1923519011761943604202502130501",
+          "alertCode": "ECW",
+          "program": "public",
+          "alertBannerText": "Extreme Cold Warning",
+          "alertHeaderText": "Extreme Cold Warning in effect for:",
+          "bannerColour": "#b40000",
+          "zoneId": "loc1-2366",
+          "zones": ["City of Edmonton - St. Albert - Sherwood Park"],
+          "text": "Extremely cold wind chill values near minus 40 continue tonight and Wednesday morning.\n\nTemperatures will moderate Wednesday.\n\nExtreme cold puts everyone at risk.\n\nRisks are greater for young children, older adults, people with chronic illnesses, people working or exercising outdoors, and those without proper shelter.\n\nDress warmly. Dress in layers that you can remove if you get too warm. The outer layer should be wind resistant.\n\nCover up. Frostbite can develop within minutes on exposed skin, especially with wind chill.\n\nIf it’s too cold for you to stay outside, it’s too cold for your pet to stay outside.\n\nExtreme cold warnings are issued when very cold temperatures or wind chill creates an elevated risk to health such as frost bite and hypothermia.\n\nPlease continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather, send an email to ABstorm@ec.gc.ca, call 1-800-239-0484 or post reports on X using #ABStorm.",
+          "special_text": [
+            {
+              "type": "email",
+              "link": "ABstorm@ec.gc.ca"
             },
-            "dewpoint": {
-                "imperial": "-20",
-                "imperialUnrounded": "-20.4",
-                "metric": "-29",
-                "metricUnrounded": "-29.1"
-            },
-            "feelsLike": {
-                "imperial": "-24",
-                "metric": "-31",
-                "qaValue": 100
-            },
-            "pressure": {
-                "imperial": "30.7",
-                "metric": "103.9",
-                "changeImperial": "0.03",
-                "changeMetric": "0.11"
-            },
-            "tendency": "falling",
-            "visibility": {
-                "imperial": "",
-                "metric": ""
-            },
-            "humidity": "52",
-            "humidityQaValue": 100,
-            "windSpeed": {
-                "imperial": "8",
-                "metric": "13",
-                "qaValue": 100
-            },
-            "windGust": {
-                "imperial": "",
-                "metric": ""
-            },
-            "windDirection": "SE",
-            "windDirectionQAValue": 100,
-            "windBearing": "137.5"
-        },
-        "hourlyFcst": {
-            "hourlyIssuedTimeShrt": "4:00 PM MST",
-            "hourly": [
-                {
-                    "date": "18 February 2025",
-                    "periodID": 0,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-33",
-                        "imperial": "-27"
-                    },
-                    "condition": "Clear",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-23",
-                        "imperial": "-9"
-                    },
-                    "iconCode": "30",
-                    "time": "8 PM",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739934000,
-                    "dateShrt": "18 Feb"
-                },
-                {
-                    "date": "18 February 2025",
-                    "feelsLike": {
-                        "metric": "-34",
-                        "imperial": "-29"
-                    },
-                    "periodID": 1,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-24",
-                        "imperial": "-11"
-                    },
-                    "iconCode": "30",
-                    "time": "9 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739937600
-                },
-                {
-                    "date": "18 February 2025",
-                    "feelsLike": {
-                        "metric": "-34",
-                        "imperial": "-29"
-                    },
-                    "periodID": 2,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-24",
-                        "imperial": "-11"
-                    },
-                    "iconCode": "30",
-                    "time": "10 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739941200
-                },
-                {
-                    "date": "18 February 2025",
-                    "feelsLike": {
-                        "metric": "-35",
-                        "imperial": "-31"
-                    },
-                    "periodID": 3,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-25",
-                        "imperial": "-13"
-                    },
-                    "iconCode": "30",
-                    "time": "11 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739944800
-                },
-                {
-                    "date": "19 February 2025",
-                    "periodID": 4,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-36",
-                        "imperial": "-33"
-                    },
-                    "condition": "Clear",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-26",
-                        "imperial": "-15"
-                    },
-                    "iconCode": "30",
-                    "time": "12 AM",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739948400,
-                    "dateShrt": "19 Feb"
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-37",
-                        "imperial": "-35"
-                    },
-                    "periodID": 5,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-26",
-                        "imperial": "-15"
-                    },
-                    "iconCode": "30",
-                    "time": "1 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739952000
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-38",
-                        "imperial": "-36"
-                    },
-                    "periodID": 6,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-27",
-                        "imperial": "-17"
-                    },
-                    "iconCode": "30",
-                    "time": "2 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739955600
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-38",
-                        "imperial": "-36"
-                    },
-                    "periodID": 7,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-27",
-                        "imperial": "-17"
-                    },
-                    "iconCode": "30",
-                    "time": "3 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739959200
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-39",
-                        "imperial": "-38"
-                    },
-                    "periodID": 8,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-28",
-                        "imperial": "-18"
-                    },
-                    "iconCode": "30",
-                    "time": "4 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739962800
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-39",
-                        "imperial": "-38"
-                    },
-                    "periodID": 9,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-28",
-                        "imperial": "-18"
-                    },
-                    "iconCode": "30",
-                    "time": "5 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739966400
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-37",
-                        "imperial": "-35"
-                    },
-                    "periodID": 10,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-26",
-                        "imperial": "-15"
-                    },
-                    "iconCode": "30",
-                    "time": "6 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739970000
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-35",
-                        "imperial": "-31"
-                    },
-                    "periodID": 11,
-                    "condition": "Clear",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-25",
-                        "imperial": "-13"
-                    },
-                    "iconCode": "30",
-                    "time": "7 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "15",
-                        "imperial": "9"
-                    },
-                    "epochTime": 1739973600
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-34",
-                        "imperial": "-29"
-                    },
-                    "periodID": 12,
-                    "condition": "Sunny",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-23",
-                        "imperial": "-9"
-                    },
-                    "iconCode": "00",
-                    "time": "8 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739977200
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-32",
-                        "imperial": "-26"
-                    },
-                    "periodID": 13,
-                    "condition": "Sunny",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-21",
-                        "imperial": "-6"
-                    },
-                    "iconCode": "00",
-                    "time": "9 AM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739980800
-                },
-                {
-                    "date": "19 February 2025",
-                    "uv": {
-                        "index": "1"
-                    },
-                    "periodID": 14,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-29",
-                        "imperial": "-20"
-                    },
-                    "condition": "Sunny",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-19",
-                        "imperial": "-2"
-                    },
-                    "iconCode": "00",
-                    "time": "10 AM",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739984400
-                },
-                {
-                    "date": "19 February 2025",
-                    "uv": {
-                        "index": "1"
-                    },
-                    "periodID": 15,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-27",
-                        "imperial": "-17"
-                    },
-                    "condition": "Sunny",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-17",
-                        "imperial": "1"
-                    },
-                    "iconCode": "00",
-                    "time": "11 AM",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739988000
-                },
-                {
-                    "date": "19 February 2025",
-                    "uv": {
-                        "index": "1"
-                    },
-                    "periodID": 16,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-26",
-                        "imperial": "-15"
-                    },
-                    "condition": "Sunny",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-16",
-                        "imperial": "3"
-                    },
-                    "iconCode": "00",
-                    "time": "12 PM",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739991600
-                },
-                {
-                    "date": "19 February 2025",
-                    "uv": {
-                        "index": "1"
-                    },
-                    "periodID": 17,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-25",
-                        "imperial": "-13"
-                    },
-                    "condition": "Mainly sunny",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-16",
-                        "imperial": "3"
-                    },
-                    "iconCode": "01",
-                    "time": "1 PM",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739995200
-                },
-                {
-                    "date": "19 February 2025",
-                    "uv": {
-                        "index": "1"
-                    },
-                    "periodID": 18,
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "windDir": "SE",
-                    "feelsLike": {
-                        "metric": "-24",
-                        "imperial": "-11"
-                    },
-                    "condition": "Mainly sunny",
-                    "precip": "0",
-                    "temperature": {
-                        "metric": "-15",
-                        "imperial": "5"
-                    },
-                    "iconCode": "01",
-                    "time": "2 PM",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1739998800
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-24",
-                        "imperial": "-11"
-                    },
-                    "periodID": 19,
-                    "condition": "Mainly sunny",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-15",
-                        "imperial": "5"
-                    },
-                    "iconCode": "01",
-                    "time": "3 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1740002400
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-23",
-                        "imperial": "-9"
-                    },
-                    "periodID": 20,
-                    "condition": "Mainly sunny",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-14",
-                        "imperial": "7"
-                    },
-                    "iconCode": "01",
-                    "time": "4 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1740006000
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-23",
-                        "imperial": "-9"
-                    },
-                    "periodID": 21,
-                    "condition": "A mix of sun and cloud",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-14",
-                        "imperial": "7"
-                    },
-                    "iconCode": "02",
-                    "time": "5 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1740009600
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-23",
-                        "imperial": "-9"
-                    },
-                    "periodID": 22,
-                    "condition": "Partly cloudy",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-14",
-                        "imperial": "7"
-                    },
-                    "iconCode": "32",
-                    "time": "6 PM",
-                    "windDir": "SE",
-                    "windSpeed": {
-                        "metric": "20",
-                        "imperial": "12"
-                    },
-                    "epochTime": 1740013200
-                },
-                {
-                    "date": "19 February 2025",
-                    "feelsLike": {
-                        "metric": "-20",
-                        "imperial": "-4"
-                    },
-                    "periodID": 23,
-                    "condition": "Partly cloudy",
-                    "precip": "0",
-                    "windGust": {
-                        "metric": "",
-                        "imperial": ""
-                    },
-                    "temperature": {
-                        "metric": "-14",
-                        "imperial": "7"
-                    },
-                    "iconCode": "32",
-                    "time": "7 PM",
-                    "windDir": "S",
-                    "windSpeed": {
-                        "metric": "10",
-                        "imperial": "6"
-                    },
-                    "epochTime": 1740016800
-                }
-            ]
-        },
-        "dailyFcst": {
-            "dailyIssuedTimeShrt": "4:00 PM MST",
-            "regionalNormals": {
-                "metric": {
-                    "highTemp": -3,
-                    "lowTemp": -12,
-                    "text": "Low minus 12. High minus 3."
-                },
-                "imperial": {
-                    "highTemp": 27,
-                    "lowTemp": 10,
-                    "text": "Low minus 12. High minus 3."
-                }
-            },
-            "daily": [
-                {
-                    "date": "Tue, 18 Feb",
-                    "summary": "Clear",
-                    "periodID": 2,
-                    "periodLabel": "Tonight",
-                    "windChill": {
-                        "frostbite": "Risk of frostbite",
-                        "calculated": [
-                            {
-                                "unitType": "metric",
-                                "index": "1",
-                                "class": "evening",
-                                "value": "-28"
-                            },
-                            {
-                                "unitType": "metric",
-                                "index": "2",
-                                "class": "overnight",
-                                "value": "-39"
-                            }
-                        ],
-                        "textSummary": "Wind chill minus 28 this evening and minus 39 overnight. Risk of frostbite."
-                    },
-                    "sun": [],
-                    "temperatureText": "Low minus 28.",
-                    "humidex": [],
-                    "precip": "",
-                    "frost": {
-                        "textSummary": ""
-                    },
-                    "titleText": "Tonight: Clear. Low minus 28.",
-                    "temperature": {
-                        "metric": "-28",
-                        "imperial": "-18",
-                        "periodLow": -28
-                    },
-                    "iconCode": "30",
-                    "text": "Clear. Wind up to 15 km/h. Low minus 28. Wind chill minus 28 this evening and minus 39 overnight. Risk of frostbite."
-                },
-                {
-                    "date": "Wed, 19 Feb",
-                    "summary": "Sunny",
-                    "periodID": 3,
-                    "periodLabel": "Wed, 19 Feb",
-                    "windChill": {
-                        "frostbite": "Risk of frostbite",
-                        "calculated": [
-                            {
-                                "unitType": "metric",
-                                "index": "1",
-                                "class": "morning",
-                                "value": "-37"
-                            },
-                            {
-                                "unitType": "metric",
-                                "index": "2",
-                                "class": "afternoon",
-                                "value": "-23"
-                            }
-                        ],
-                        "textSummary": "Wind chill minus 37 in the morning and minus 23 in the afternoon. Risk of frostbite."
-                    },
-                    "sun": {
-                        "value": "9",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High minus 14.",
-                    "humidex": [],
-                    "precip": "",
-                    "frost": {
-                        "textSummary": ""
-                    },
-                    "titleText": "Wed, 19 Feb: Sunny. High minus 14.",
-                    "temperature": {
-                        "periodHigh": -14,
-                        "metric": "-14",
-                        "imperial": "7"
-                    },
-                    "iconCode": "00",
-                    "text": "Sunny. Wind becoming southeast 20 km/h in the morning. High minus 14. Wind chill minus 37 in the morning and minus 23 in the afternoon. Risk of frostbite. UV index 1 or low."
-                },
-                {
-                    "date": "Wed, 19 Feb",
-                    "summary": "Mainly cloudy",
-                    "periodID": 4,
-                    "periodLabel": "Night",
-                    "windChill": {
-                        "frostbite": "",
-                        "calculated": [
-                            {
-                                "unitType": "metric",
-                                "index": "1",
-                                "class": "evening",
-                                "value": "-23"
-                            },
-                            {
-                                "unitType": "metric",
-                                "index": "2",
-                                "class": "overnight",
-                                "value": "-15"
-                            }
-                        ],
-                        "textSummary": "Wind chill minus 23 in the evening and minus 15 overnight."
-                    },
-                    "sun": [],
-                    "temperatureText": "Temperature rising to minus 12 by morning.",
-                    "humidex": [],
-                    "precip": "",
-                    "frost": {
-                        "textSummary": ""
-                    },
-                    "titleText": "Night: Mainly cloudy. Temperature rising to minus 12 by morning.",
-                    "temperature": {
-                        "metric": "-14",
-                        "imperial": "7",
-                        "periodLow": -14
-                    },
-                    "iconCode": "33",
-                    "text": "Mainly cloudy. Wind southeast 20 km/h becoming light early in the evening. Temperature rising to minus 12 by morning. Wind chill minus 23 in the evening and minus 15 overnight."
-                },
-                {
-                    "date": "Thu, 20 Feb",
-                    "summary": "Sunny",
-                    "periodID": 5,
-                    "periodLabel": "Thu, 20 Feb",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "10",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High plus 3.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Thu, 20 Feb: Sunny. High plus 3.",
-                    "temperature": {
-                        "periodHigh": 3,
-                        "metric": "3",
-                        "imperial": "37"
-                    },
-                    "iconCode": "00",
-                    "text": "Sunny. High plus 3."
-                },
-                {
-                    "date": "Thu, 20 Feb",
-                    "summary": "Cloudy periods",
-                    "periodID": 6,
-                    "periodLabel": "Night",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "0",
-                        "units": "hours"
-                    },
-                    "temperatureText": "Low minus 2.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Night: Cloudy periods. Low minus 2.",
-                    "temperature": {
-                        "metric": "-2",
-                        "imperial": "28",
-                        "periodLow": -2
-                    },
-                    "iconCode": "32",
-                    "text": "Cloudy periods. Low minus 2."
-                },
-                {
-                    "date": "Fri, 21 Feb",
-                    "summary": "Sunny",
-                    "periodID": 7,
-                    "periodLabel": "Fri, 21 Feb",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "8",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High plus 5.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Fri, 21 Feb: Sunny. High plus 5.",
-                    "temperature": {
-                        "periodHigh": 5,
-                        "metric": "5",
-                        "imperial": "41"
-                    },
-                    "iconCode": "00",
-                    "text": "Sunny. High plus 5."
-                },
-                {
-                    "date": "Fri, 21 Feb",
-                    "summary": "Cloudy periods",
-                    "periodID": 8,
-                    "periodLabel": "Night",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "0",
-                        "units": "hours"
-                    },
-                    "temperatureText": "Low minus 2.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Night: Cloudy periods. Low minus 2.",
-                    "temperature": {
-                        "metric": "-2",
-                        "imperial": "28",
-                        "periodLow": -2
-                    },
-                    "iconCode": "32",
-                    "text": "Cloudy periods. Low minus 2."
-                },
-                {
-                    "date": "Sat, 22 Feb",
-                    "summary": "A mix of sun and cloud",
-                    "periodID": 9,
-                    "periodLabel": "Sat, 22 Feb",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "6",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High plus 5.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Sat, 22 Feb: A mix of sun and cloud. High plus 5.",
-                    "temperature": {
-                        "periodHigh": 5,
-                        "metric": "5",
-                        "imperial": "41"
-                    },
-                    "iconCode": "02",
-                    "text": "A mix of sun and cloud. High plus 5."
-                },
-                {
-                    "date": "Sat, 22 Feb",
-                    "summary": "Cloudy periods",
-                    "periodID": 10,
-                    "periodLabel": "Night",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "0",
-                        "units": "hours"
-                    },
-                    "temperatureText": "Low minus 2.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Night: Cloudy periods. Low minus 2.",
-                    "temperature": {
-                        "metric": "-2",
-                        "imperial": "28",
-                        "periodLow": -2
-                    },
-                    "iconCode": "32",
-                    "text": "Cloudy periods. Low minus 2."
-                },
-                {
-                    "date": "Sun, 23 Feb",
-                    "summary": "A mix of sun and cloud",
-                    "periodID": 11,
-                    "periodLabel": "Sun, 23 Feb",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "5",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High 10.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Sun, 23 Feb: A mix of sun and cloud. High 10.",
-                    "temperature": {
-                        "periodHigh": 10,
-                        "metric": "10",
-                        "imperial": "50"
-                    },
-                    "iconCode": "02",
-                    "text": "A mix of sun and cloud. High 10."
-                },
-                {
-                    "date": "Sun, 23 Feb",
-                    "summary": "Cloudy periods",
-                    "periodID": 12,
-                    "periodLabel": "Night",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "0",
-                        "units": "hours"
-                    },
-                    "temperatureText": "Low minus 1.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Night: Cloudy periods. Low minus 1.",
-                    "temperature": {
-                        "metric": "-1",
-                        "imperial": "30",
-                        "periodLow": -1
-                    },
-                    "iconCode": "32",
-                    "text": "Cloudy periods. Low minus 1."
-                },
-                {
-                    "date": "Mon, 24 Feb",
-                    "summary": "A mix of sun and cloud",
-                    "periodID": 13,
-                    "periodLabel": "Mon, 24 Feb",
-                    "windChill": {
-                        "calculated": [],
-                        "textSummary": ""
-                    },
-                    "sun": {
-                        "value": "5",
-                        "units": "hours"
-                    },
-                    "temperatureText": "High 7.",
-                    "humidex": {
-                        "textSummary": ""
-                    },
-                    "precip": "",
-                    "titleText": "Mon, 24 Feb: A mix of sun and cloud. High 7.",
-                    "temperature": {
-                        "periodHigh": 7,
-                        "metric": "7",
-                        "imperial": "45"
-                    },
-                    "iconCode": "02",
-                    "text": "A mix of sun and cloud. High 7."
-                }
-            ],
-            "dailyIssuedTime": "4:00 PM MST Tuesday 18 February 2025",
-            "dailyIssuedTimeEpoch": "1739919600"
-        },
-        "aqhi": {
-            "value": "2",
-            "riskText": "Low Risk",
-            "url": "http://weather.gc.ca/airquality/pages/abaq-001_e.html",
-            "aqhiVal": 2,
-            "observedAt": "Edmonton",
-            "epochTime": 1739926800,
-            "specialNotes": []
-        },
-        "riseSet": {
-            "set": {
-                "time12h": "5:50 pm",
-                "epochTimeRounded": "1739923200",
-                "time": "17:50"
-            },
-            "timeZone": "MST",
-            "rise": {
-                "time12h": "7:47 am",
-                "epochTimeRounded": "1739887200",
-                "time": "7:47"
+            {
+              "type": "hashtag",
+              "link": "#ABStorm"
             }
-        },
-        "riseSetNextDay": {
-            "set": {
-                "time12h": "5:52 pm",
-                "epochTimeRounded": "1740009600",
-                "time": "17:52"
-            },
-            "timeZone": "MST",
-            "rise": {
-                "time12h": "7:45 am",
-                "epochTimeRounded": "1739973600",
-                "time": "7:45"
-            }
-        },
-        "riseData": [
-            {
-                "set": {
-                    "time12h": "5:50 pm",
-                    "epochTimeRounded": "1739923200",
-                    "time": "17:50"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:47 am",
-                    "epochTimeRounded": "1739887200",
-                    "time": "7:47"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "5:52 pm",
-                    "epochTimeRounded": "1740009600",
-                    "time": "17:52"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:45 am",
-                    "epochTimeRounded": "1739973600",
-                    "time": "7:45"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "5:54 pm",
-                    "epochTimeRounded": "1740096000",
-                    "time": "17:54"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:42 am",
-                    "epochTimeRounded": "1740060000",
-                    "time": "7:42"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "5:56 pm",
-                    "epochTimeRounded": "1740182400",
-                    "time": "17:56"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:40 am",
-                    "epochTimeRounded": "1740146400",
-                    "time": "7:40"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "5:58 pm",
-                    "epochTimeRounded": "1740268800",
-                    "time": "17:58"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:38 am",
-                    "epochTimeRounded": "1740232800",
-                    "time": "7:38"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "6:00 pm",
-                    "epochTimeRounded": "1740358800",
-                    "time": "18:00"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:36 am",
-                    "epochTimeRounded": "1740319200",
-                    "time": "7:36"
-                }
-            },
-            {
-                "set": {
-                    "time12h": "6:02 pm",
-                    "epochTimeRounded": "1740445200",
-                    "time": "18:02"
-                },
-                "timeZone": "MST",
-                "rise": {
-                    "time12h": "7:34 am",
-                    "epochTimeRounded": "1740405600",
-                    "time": "7:34"
-                }
-            }
-        ],
-        "metNotes": [],
-        "pastHourly": {
-            "observedAt": "Edmonton Blatchford",
-            "provinceCode": "AB",
-            "hours": [
-                {
-                    "timeStamp": "2025-02-19T01:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -21.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -31,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -29.1,
-                    "pressure": 103.9,
-                    "humidity": 52,
-                    "humidityQaValue": 100,
-                    "windSpeed": 13,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-19T00:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -20.3,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -32,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -28.6,
-                    "pressure": 104,
-                    "humidity": 47,
-                    "humidityQaValue": 100,
-                    "windSpeed": 23,
-                    "windSpeedQaValue": 100,
-                    "windGust": 36,
-                    "windGustQaValue": 100,
-                    "windDirection": "SSE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T23:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -19.9,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -30,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -27.1,
-                    "pressure": 104,
-                    "humidity": 53,
-                    "humidityQaValue": 100,
-                    "windSpeed": 18,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SSE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T22:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -19.2,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -28,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -26.1,
-                    "pressure": 104,
-                    "humidity": 54,
-                    "humidityQaValue": 100,
-                    "windSpeed": 15,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SSE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T21:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -19.6,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -28,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -26.5,
-                    "pressure": 104,
-                    "humidity": 54,
-                    "humidityQaValue": 100,
-                    "windSpeed": 12,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T20:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -20.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -30,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -27.4,
-                    "pressure": 104.1,
-                    "humidity": 55,
-                    "humidityQaValue": 100,
-                    "windSpeed": 15,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T19:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -21.6,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -31,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -28.3,
-                    "pressure": 104.1,
-                    "humidity": 55,
-                    "humidityQaValue": 100,
-                    "windSpeed": 14,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T18:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -23.7,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -32,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -29.7,
-                    "pressure": 104.2,
-                    "humidity": 58,
-                    "humidityQaValue": 100,
-                    "windSpeed": 10,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T17:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -27.3,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -36,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -32.2,
-                    "pressure": 104.3,
-                    "humidity": 63,
-                    "humidityQaValue": 100,
-                    "windSpeed": 11,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T16:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -28.6,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -36,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -32.6,
-                    "pressure": 104.2,
-                    "humidity": 69,
-                    "humidityQaValue": 100,
-                    "windSpeed": 7,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "ESE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T15:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -29.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -35,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -33.1,
-                    "pressure": 104.2,
-                    "humidity": 73,
-                    "humidityQaValue": 100,
-                    "windSpeed": 5,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "S",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T14:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -29.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -40,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -33.5,
-                    "pressure": 104.2,
-                    "humidity": 70,
-                    "humidityQaValue": 100,
-                    "windSpeed": 12,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T13:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -29.6,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -39,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -33.5,
-                    "pressure": 104.1,
-                    "humidity": 69,
-                    "humidityQaValue": 100,
-                    "windSpeed": 11,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T12:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -28.9,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -35,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -33,
-                    "pressure": 104.1,
-                    "humidity": 68,
-                    "humidityQaValue": 100,
-                    "windSpeed": 6,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T11:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -28.9,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -37,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -32.9,
-                    "pressure": 104,
-                    "humidity": 69,
-                    "humidityQaValue": 100,
-                    "windSpeed": 9,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T10:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -28.3,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -37,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -32.2,
-                    "pressure": 103.9,
-                    "humidity": 69,
-                    "humidityQaValue": 100,
-                    "windSpeed": 9,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "ESE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T09:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -27.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -39,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -31.9,
-                    "pressure": 103.8,
-                    "humidity": 68,
-                    "humidityQaValue": 100,
-                    "windSpeed": 15,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T08:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -27.2,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -37,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -31.5,
-                    "pressure": 103.8,
-                    "humidity": 67,
-                    "humidityQaValue": 100,
-                    "windSpeed": 13,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T07:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -26.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -37,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -31.2,
-                    "pressure": 103.8,
-                    "humidity": 66,
-                    "humidityQaValue": 100,
-                    "windSpeed": 14,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T06:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -26.3,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -36,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -30.8,
-                    "pressure": 103.7,
-                    "humidity": 66,
-                    "humidityQaValue": 100,
-                    "windSpeed": 12,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T05:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -25.7,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -38,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -30.4,
-                    "pressure": 103.7,
-                    "humidity": 65,
-                    "humidityQaValue": 100,
-                    "windSpeed": 21,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T04:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -24.8,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -36,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -29.7,
-                    "pressure": 103.6,
-                    "humidity": 64,
-                    "humidityQaValue": 100,
-                    "windSpeed": 18,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SSE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T03:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -24.4,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -34,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -29.5,
-                    "pressure": 103.6,
-                    "humidity": 63,
-                    "humidityQaValue": 100,
-                    "windSpeed": 14,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "SE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T02:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -23.6,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -35,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -28.6,
-                    "pressure": 103.4,
-                    "humidity": 63,
-                    "humidityQaValue": 100,
-                    "windSpeed": 19,
-                    "windSpeedQaValue": 100,
-                    "windGust": 27,
-                    "windGustQaValue": 100,
-                    "windDirection": "ESE",
-                    "windDirectionQaValue": 100
-                },
-                {
-                    "timeStamp": "2025-02-18T01:00:00.000Z",
-                    "timeZone": "MST",
-                    "temperature": -22.7,
-                    "temperatureQaValue": 100,
-                    "feelsLike": -33,
-                    "feelsLikeQaValue": 100,
-                    "dewpoint": -27.9,
-                    "pressure": 103.4,
-                    "humidity": 63,
-                    "humidityQaValue": 100,
-                    "windSpeed": 17,
-                    "windSpeedQaValue": 100,
-                    "windDirection": "ESE",
-                    "windDirectionQaValue": 100
-                }
-            ]
-        },
-        "aqhiFcst": {
-            "epochTime": 1739923200,
-            "daily": [
-                {
-                    "periodName": "Tuesday night",
-                    "aqhiVal": 3,
-                    "periodID": 2
-                },
-                {
-                    "periodName": "Wednesday",
-                    "aqhiVal": 3,
-                    "periodID": 3
-                },
-                {
-                    "periodName": "Wednesday night",
-                    "aqhiVal": 3,
-                    "periodID": 4
-                },
-                {
-                    "periodName": "Thursday",
-                    "aqhiVal": 4,
-                    "periodID": 5
-                }
-            ]
-        },
-        "aqhiInfo": {
-            "past24Hr": "https://weather.gc.ca/airquality/pages/trends/abaq-001_e.html",
-            "next24Hr": "https://weather.gc.ca/airquality/pages/nextHourlies/abaq-001_e.html",
-            "stationUrl": "https://weather.gc.ca/airquality/pages/multiple_stations/abaq-001_e.html",
-            "locUrl": "https://weather.gc.ca/airquality/pages/abaq-001_e.html",
-            "partnerText": "The AQHI is an initiative of Environment and Climate Change Canada, Health Canada, Alberta Environment and Protected Areas, Alberta Health and Alberta Health Services."
-        },
-        "province": "AB",
-        "tcId": "XEC",
-        "climateId": "3012209",
-        "tc2Id": "SCUA",
-        "climate2Id": "3012220",
-        "wxoPubZoneCode": "ab33",
-        "wxoAqZoneCode": "aq1079",
-        "wxoTsunamiZoneCode": "ab33",
-        "wxoCfZoneCode": "",
-        "timezone": "MST7MDT",
-        "lat": "53.536",
-        "lon": "-113.494",
-        "useNatRadar": false,
-        "alert_nodata_epoch": 0,
-        "mtimes": {
-            "ALERTS": 1739917052,
-            "AQHI": 1739929534,
-            "AQHI_FORECAST": 1739922573,
-            "AQHI_INFO": 0,
-            "DAILY_FORECAST": 1739923200,
-            "HOURLY_OBSERVATION": 1739926858,
-            "HOURLY_FORECAST": 1739930400,
-            "RISESET": 1739862002,
-            "RISESET_NEXT_DAY": 1739862002,
-            "RISEDATA0": 1739862002,
-            "RISEDATA1": 1739862002,
-            "RISEDATA2": 1739862002,
-            "RISEDATA3": 1739862002,
-            "RISEDATA4": 1739862002,
-            "RISEDATA5": 1739862002,
-            "RISEDATA6": 1739862002,
-            "PAST_HOURLY": 1739927154
+          ],
+          "tcisURL": ""
         }
+      ],
+      "hwyAlerts": []
+    },
+    "observation": {
+      "observedAt": "Edmonton Blatchford",
+      "provinceCode": "AB",
+      "climateId": "3012209",
+      "tcid": "xec",
+      "timeStamp": "2025-02-19T01:00:00.000Z",
+      "timeStampText": "6:00 PM MST Tuesday 18 February 2025",
+      "iconCode": "29",
+      "condition": "",
+      "temperature": {
+        "imperial": "-7",
+        "imperialUnrounded": "-7.2",
+        "metric": "-22",
+        "metricUnrounded": "-21.8",
+        "qaValue": 100
+      },
+      "dewpoint": {
+        "imperial": "-20",
+        "imperialUnrounded": "-20.4",
+        "metric": "-29",
+        "metricUnrounded": "-29.1"
+      },
+      "feelsLike": {
+        "imperial": "-24",
+        "metric": "-31",
+        "qaValue": 100
+      },
+      "pressure": {
+        "imperial": "30.7",
+        "metric": "103.9",
+        "changeImperial": "0.03",
+        "changeMetric": "0.11"
+      },
+      "tendency": "falling",
+      "visibility": {
+        "imperial": "",
+        "metric": ""
+      },
+      "humidity": "52",
+      "humidityQaValue": 100,
+      "windSpeed": {
+        "imperial": "8",
+        "metric": "13",
+        "qaValue": 100
+      },
+      "windGust": {
+        "imperial": "",
+        "metric": ""
+      },
+      "windDirection": "SE",
+      "windDirectionQAValue": 100,
+      "windBearing": "137.5"
+    },
+    "hourlyFcst": {
+      "hourlyIssuedTimeShrt": "4:00 PM MST",
+      "hourly": [
+        {
+          "date": "18 February 2025",
+          "periodID": 0,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-33",
+            "imperial": "-27"
+          },
+          "condition": "Clear",
+          "precip": "0",
+          "temperature": {
+            "metric": "-23",
+            "imperial": "-9"
+          },
+          "iconCode": "30",
+          "time": "8 PM",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739934000,
+          "dateShrt": "18 Feb"
+        },
+        {
+          "date": "18 February 2025",
+          "feelsLike": {
+            "metric": "-34",
+            "imperial": "-29"
+          },
+          "periodID": 1,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-24",
+            "imperial": "-11"
+          },
+          "iconCode": "30",
+          "time": "9 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739937600
+        },
+        {
+          "date": "18 February 2025",
+          "feelsLike": {
+            "metric": "-34",
+            "imperial": "-29"
+          },
+          "periodID": 2,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-24",
+            "imperial": "-11"
+          },
+          "iconCode": "30",
+          "time": "10 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739941200
+        },
+        {
+          "date": "18 February 2025",
+          "feelsLike": {
+            "metric": "-35",
+            "imperial": "-31"
+          },
+          "periodID": 3,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-25",
+            "imperial": "-13"
+          },
+          "iconCode": "30",
+          "time": "11 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739944800
+        },
+        {
+          "date": "19 February 2025",
+          "periodID": 4,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-36",
+            "imperial": "-33"
+          },
+          "condition": "Clear",
+          "precip": "0",
+          "temperature": {
+            "metric": "-26",
+            "imperial": "-15"
+          },
+          "iconCode": "30",
+          "time": "12 AM",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739948400,
+          "dateShrt": "19 Feb"
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-37",
+            "imperial": "-35"
+          },
+          "periodID": 5,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-26",
+            "imperial": "-15"
+          },
+          "iconCode": "30",
+          "time": "1 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739952000
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-38",
+            "imperial": "-36"
+          },
+          "periodID": 6,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-27",
+            "imperial": "-17"
+          },
+          "iconCode": "30",
+          "time": "2 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739955600
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-38",
+            "imperial": "-36"
+          },
+          "periodID": 7,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-27",
+            "imperial": "-17"
+          },
+          "iconCode": "30",
+          "time": "3 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739959200
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-39",
+            "imperial": "-38"
+          },
+          "periodID": 8,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-28",
+            "imperial": "-18"
+          },
+          "iconCode": "30",
+          "time": "4 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739962800
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-39",
+            "imperial": "-38"
+          },
+          "periodID": 9,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-28",
+            "imperial": "-18"
+          },
+          "iconCode": "30",
+          "time": "5 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739966400
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-37",
+            "imperial": "-35"
+          },
+          "periodID": 10,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-26",
+            "imperial": "-15"
+          },
+          "iconCode": "30",
+          "time": "6 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739970000
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-35",
+            "imperial": "-31"
+          },
+          "periodID": 11,
+          "condition": "Clear",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-25",
+            "imperial": "-13"
+          },
+          "iconCode": "30",
+          "time": "7 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "15",
+            "imperial": "9"
+          },
+          "epochTime": 1739973600
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-34",
+            "imperial": "-29"
+          },
+          "periodID": 12,
+          "condition": "Sunny",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-23",
+            "imperial": "-9"
+          },
+          "iconCode": "00",
+          "time": "8 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739977200
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-32",
+            "imperial": "-26"
+          },
+          "periodID": 13,
+          "condition": "Sunny",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-21",
+            "imperial": "-6"
+          },
+          "iconCode": "00",
+          "time": "9 AM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739980800
+        },
+        {
+          "date": "19 February 2025",
+          "uv": {
+            "index": "1"
+          },
+          "periodID": 14,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-29",
+            "imperial": "-20"
+          },
+          "condition": "Sunny",
+          "precip": "0",
+          "temperature": {
+            "metric": "-19",
+            "imperial": "-2"
+          },
+          "iconCode": "00",
+          "time": "10 AM",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739984400
+        },
+        {
+          "date": "19 February 2025",
+          "uv": {
+            "index": "1"
+          },
+          "periodID": 15,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-27",
+            "imperial": "-17"
+          },
+          "condition": "Sunny",
+          "precip": "0",
+          "temperature": {
+            "metric": "-17",
+            "imperial": "1"
+          },
+          "iconCode": "00",
+          "time": "11 AM",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739988000
+        },
+        {
+          "date": "19 February 2025",
+          "uv": {
+            "index": "1"
+          },
+          "periodID": 16,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-26",
+            "imperial": "-15"
+          },
+          "condition": "Sunny",
+          "precip": "0",
+          "temperature": {
+            "metric": "-16",
+            "imperial": "3"
+          },
+          "iconCode": "00",
+          "time": "12 PM",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739991600
+        },
+        {
+          "date": "19 February 2025",
+          "uv": {
+            "index": "1"
+          },
+          "periodID": 17,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-25",
+            "imperial": "-13"
+          },
+          "condition": "Mainly sunny",
+          "precip": "0",
+          "temperature": {
+            "metric": "-16",
+            "imperial": "3"
+          },
+          "iconCode": "01",
+          "time": "1 PM",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739995200
+        },
+        {
+          "date": "19 February 2025",
+          "uv": {
+            "index": "1"
+          },
+          "periodID": 18,
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "windDir": "SE",
+          "feelsLike": {
+            "metric": "-24",
+            "imperial": "-11"
+          },
+          "condition": "Mainly sunny",
+          "precip": "0",
+          "temperature": {
+            "metric": "-15",
+            "imperial": "5"
+          },
+          "iconCode": "01",
+          "time": "2 PM",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1739998800
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-24",
+            "imperial": "-11"
+          },
+          "periodID": 19,
+          "condition": "Mainly sunny",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-15",
+            "imperial": "5"
+          },
+          "iconCode": "01",
+          "time": "3 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1740002400
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-23",
+            "imperial": "-9"
+          },
+          "periodID": 20,
+          "condition": "Mainly sunny",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-14",
+            "imperial": "7"
+          },
+          "iconCode": "01",
+          "time": "4 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1740006000
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-23",
+            "imperial": "-9"
+          },
+          "periodID": 21,
+          "condition": "A mix of sun and cloud",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-14",
+            "imperial": "7"
+          },
+          "iconCode": "02",
+          "time": "5 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1740009600
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-23",
+            "imperial": "-9"
+          },
+          "periodID": 22,
+          "condition": "Partly cloudy",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-14",
+            "imperial": "7"
+          },
+          "iconCode": "32",
+          "time": "6 PM",
+          "windDir": "SE",
+          "windSpeed": {
+            "metric": "20",
+            "imperial": "12"
+          },
+          "epochTime": 1740013200
+        },
+        {
+          "date": "19 February 2025",
+          "feelsLike": {
+            "metric": "-20",
+            "imperial": "-4"
+          },
+          "periodID": 23,
+          "condition": "Partly cloudy",
+          "precip": "0",
+          "windGust": {
+            "metric": "",
+            "imperial": ""
+          },
+          "temperature": {
+            "metric": "-14",
+            "imperial": "7"
+          },
+          "iconCode": "32",
+          "time": "7 PM",
+          "windDir": "S",
+          "windSpeed": {
+            "metric": "10",
+            "imperial": "6"
+          },
+          "epochTime": 1740016800
+        }
+      ]
+    },
+    "dailyFcst": {
+      "dailyIssuedTimeShrt": "4:00 PM MST",
+      "regionalNormals": {
+        "metric": {
+          "highTemp": -3,
+          "lowTemp": -12,
+          "text": "Low minus 12. High minus 3."
+        },
+        "imperial": {
+          "highTemp": 27,
+          "lowTemp": 10,
+          "text": "Low minus 12. High minus 3."
+        }
+      },
+      "daily": [
+        {
+          "date": "Tue, 18 Feb",
+          "summary": "Clear",
+          "periodID": 2,
+          "periodLabel": "Tonight",
+          "windChill": {
+            "frostbite": "Risk of frostbite",
+            "calculated": [
+              {
+                "unitType": "metric",
+                "index": "1",
+                "class": "evening",
+                "value": "-28"
+              },
+              {
+                "unitType": "metric",
+                "index": "2",
+                "class": "overnight",
+                "value": "-39"
+              }
+            ],
+            "textSummary": "Wind chill minus 28 this evening and minus 39 overnight. Risk of frostbite."
+          },
+          "sun": [],
+          "temperatureText": "Low minus 28.",
+          "humidex": [],
+          "precip": "",
+          "frost": {
+            "textSummary": ""
+          },
+          "titleText": "Tonight: Clear. Low minus 28.",
+          "temperature": {
+            "metric": "-28",
+            "imperial": "-18",
+            "periodLow": -28
+          },
+          "iconCode": "30",
+          "text": "Clear. Wind up to 15 km/h. Low minus 28. Wind chill minus 28 this evening and minus 39 overnight. Risk of frostbite."
+        },
+        {
+          "date": "Wed, 19 Feb",
+          "summary": "Sunny",
+          "periodID": 3,
+          "periodLabel": "Wed, 19 Feb",
+          "windChill": {
+            "frostbite": "Risk of frostbite",
+            "calculated": [
+              {
+                "unitType": "metric",
+                "index": "1",
+                "class": "morning",
+                "value": "-37"
+              },
+              {
+                "unitType": "metric",
+                "index": "2",
+                "class": "afternoon",
+                "value": "-23"
+              }
+            ],
+            "textSummary": "Wind chill minus 37 in the morning and minus 23 in the afternoon. Risk of frostbite."
+          },
+          "sun": {
+            "value": "9",
+            "units": "hours"
+          },
+          "temperatureText": "High minus 14.",
+          "humidex": [],
+          "precip": "",
+          "frost": {
+            "textSummary": ""
+          },
+          "titleText": "Wed, 19 Feb: Sunny. High minus 14.",
+          "temperature": {
+            "periodHigh": -14,
+            "metric": "-14",
+            "imperial": "7"
+          },
+          "iconCode": "00",
+          "text": "Sunny. Wind becoming southeast 20 km/h in the morning. High minus 14. Wind chill minus 37 in the morning and minus 23 in the afternoon. Risk of frostbite. UV index 1 or low."
+        },
+        {
+          "date": "Wed, 19 Feb",
+          "summary": "Mainly cloudy",
+          "periodID": 4,
+          "periodLabel": "Night",
+          "windChill": {
+            "frostbite": "",
+            "calculated": [
+              {
+                "unitType": "metric",
+                "index": "1",
+                "class": "evening",
+                "value": "-23"
+              },
+              {
+                "unitType": "metric",
+                "index": "2",
+                "class": "overnight",
+                "value": "-15"
+              }
+            ],
+            "textSummary": "Wind chill minus 23 in the evening and minus 15 overnight."
+          },
+          "sun": [],
+          "temperatureText": "Temperature rising to minus 12 by morning.",
+          "humidex": [],
+          "precip": "",
+          "frost": {
+            "textSummary": ""
+          },
+          "titleText": "Night: Mainly cloudy. Temperature rising to minus 12 by morning.",
+          "temperature": {
+            "metric": "-14",
+            "imperial": "7",
+            "periodLow": -14
+          },
+          "iconCode": "33",
+          "text": "Mainly cloudy. Wind southeast 20 km/h becoming light early in the evening. Temperature rising to minus 12 by morning. Wind chill minus 23 in the evening and minus 15 overnight."
+        },
+        {
+          "date": "Thu, 20 Feb",
+          "summary": "Sunny",
+          "periodID": 5,
+          "periodLabel": "Thu, 20 Feb",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "10",
+            "units": "hours"
+          },
+          "temperatureText": "High plus 3.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Thu, 20 Feb: Sunny. High plus 3.",
+          "temperature": {
+            "periodHigh": 3,
+            "metric": "3",
+            "imperial": "37"
+          },
+          "iconCode": "00",
+          "text": "Sunny. High plus 3."
+        },
+        {
+          "date": "Thu, 20 Feb",
+          "summary": "Cloudy periods",
+          "periodID": 6,
+          "periodLabel": "Night",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "0",
+            "units": "hours"
+          },
+          "temperatureText": "Low minus 2.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Night: Cloudy periods. Low minus 2.",
+          "temperature": {
+            "metric": "-2",
+            "imperial": "28",
+            "periodLow": -2
+          },
+          "iconCode": "32",
+          "text": "Cloudy periods. Low minus 2."
+        },
+        {
+          "date": "Fri, 21 Feb",
+          "summary": "Sunny",
+          "periodID": 7,
+          "periodLabel": "Fri, 21 Feb",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "8",
+            "units": "hours"
+          },
+          "temperatureText": "High plus 5.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Fri, 21 Feb: Sunny. High plus 5.",
+          "temperature": {
+            "periodHigh": 5,
+            "metric": "5",
+            "imperial": "41"
+          },
+          "iconCode": "00",
+          "text": "Sunny. High plus 5."
+        },
+        {
+          "date": "Fri, 21 Feb",
+          "summary": "Cloudy periods",
+          "periodID": 8,
+          "periodLabel": "Night",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "0",
+            "units": "hours"
+          },
+          "temperatureText": "Low minus 2.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Night: Cloudy periods. Low minus 2.",
+          "temperature": {
+            "metric": "-2",
+            "imperial": "28",
+            "periodLow": -2
+          },
+          "iconCode": "32",
+          "text": "Cloudy periods. Low minus 2."
+        },
+        {
+          "date": "Sat, 22 Feb",
+          "summary": "A mix of sun and cloud",
+          "periodID": 9,
+          "periodLabel": "Sat, 22 Feb",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "6",
+            "units": "hours"
+          },
+          "temperatureText": "High plus 5.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Sat, 22 Feb: A mix of sun and cloud. High plus 5.",
+          "temperature": {
+            "periodHigh": 5,
+            "metric": "5",
+            "imperial": "41"
+          },
+          "iconCode": "02",
+          "text": "A mix of sun and cloud. High plus 5."
+        },
+        {
+          "date": "Sat, 22 Feb",
+          "summary": "Cloudy periods",
+          "periodID": 10,
+          "periodLabel": "Night",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "0",
+            "units": "hours"
+          },
+          "temperatureText": "Low minus 2.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Night: Cloudy periods. Low minus 2.",
+          "temperature": {
+            "metric": "-2",
+            "imperial": "28",
+            "periodLow": -2
+          },
+          "iconCode": "32",
+          "text": "Cloudy periods. Low minus 2."
+        },
+        {
+          "date": "Sun, 23 Feb",
+          "summary": "A mix of sun and cloud",
+          "periodID": 11,
+          "periodLabel": "Sun, 23 Feb",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "5",
+            "units": "hours"
+          },
+          "temperatureText": "High 10.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Sun, 23 Feb: A mix of sun and cloud. High 10.",
+          "temperature": {
+            "periodHigh": 10,
+            "metric": "10",
+            "imperial": "50"
+          },
+          "iconCode": "02",
+          "text": "A mix of sun and cloud. High 10."
+        },
+        {
+          "date": "Sun, 23 Feb",
+          "summary": "Cloudy periods",
+          "periodID": 12,
+          "periodLabel": "Night",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "0",
+            "units": "hours"
+          },
+          "temperatureText": "Low minus 1.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Night: Cloudy periods. Low minus 1.",
+          "temperature": {
+            "metric": "-1",
+            "imperial": "30",
+            "periodLow": -1
+          },
+          "iconCode": "32",
+          "text": "Cloudy periods. Low minus 1."
+        },
+        {
+          "date": "Mon, 24 Feb",
+          "summary": "A mix of sun and cloud",
+          "periodID": 13,
+          "periodLabel": "Mon, 24 Feb",
+          "windChill": {
+            "calculated": [],
+            "textSummary": ""
+          },
+          "sun": {
+            "value": "5",
+            "units": "hours"
+          },
+          "temperatureText": "High 7.",
+          "humidex": {
+            "textSummary": ""
+          },
+          "precip": "",
+          "titleText": "Mon, 24 Feb: A mix of sun and cloud. High 7.",
+          "temperature": {
+            "periodHigh": 7,
+            "metric": "7",
+            "imperial": "45"
+          },
+          "iconCode": "02",
+          "text": "A mix of sun and cloud. High 7."
+        }
+      ],
+      "dailyIssuedTime": "4:00 PM MST Tuesday 18 February 2025",
+      "dailyIssuedTimeEpoch": "1739919600"
+    },
+    "aqhi": {
+      "value": "2",
+      "riskText": "Low Risk",
+      "url": "http://weather.gc.ca/airquality/pages/abaq-001_e.html",
+      "aqhiVal": 2,
+      "observedAt": "Edmonton",
+      "epochTime": 1739926800,
+      "specialNotes": []
+    },
+    "riseSet": {
+      "set": {
+        "time12h": "5:50 pm",
+        "epochTimeRounded": "1739923200",
+        "time": "17:50"
+      },
+      "timeZone": "MST",
+      "rise": {
+        "time12h": "7:47 am",
+        "epochTimeRounded": "1739887200",
+        "time": "7:47"
+      }
+    },
+    "riseSetNextDay": {
+      "set": {
+        "time12h": "5:52 pm",
+        "epochTimeRounded": "1740009600",
+        "time": "17:52"
+      },
+      "timeZone": "MST",
+      "rise": {
+        "time12h": "7:45 am",
+        "epochTimeRounded": "1739973600",
+        "time": "7:45"
+      }
+    },
+    "riseData": [
+      {
+        "set": {
+          "time12h": "5:50 pm",
+          "epochTimeRounded": "1739923200",
+          "time": "17:50"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:47 am",
+          "epochTimeRounded": "1739887200",
+          "time": "7:47"
+        }
+      },
+      {
+        "set": {
+          "time12h": "5:52 pm",
+          "epochTimeRounded": "1740009600",
+          "time": "17:52"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:45 am",
+          "epochTimeRounded": "1739973600",
+          "time": "7:45"
+        }
+      },
+      {
+        "set": {
+          "time12h": "5:54 pm",
+          "epochTimeRounded": "1740096000",
+          "time": "17:54"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:42 am",
+          "epochTimeRounded": "1740060000",
+          "time": "7:42"
+        }
+      },
+      {
+        "set": {
+          "time12h": "5:56 pm",
+          "epochTimeRounded": "1740182400",
+          "time": "17:56"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:40 am",
+          "epochTimeRounded": "1740146400",
+          "time": "7:40"
+        }
+      },
+      {
+        "set": {
+          "time12h": "5:58 pm",
+          "epochTimeRounded": "1740268800",
+          "time": "17:58"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:38 am",
+          "epochTimeRounded": "1740232800",
+          "time": "7:38"
+        }
+      },
+      {
+        "set": {
+          "time12h": "6:00 pm",
+          "epochTimeRounded": "1740358800",
+          "time": "18:00"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:36 am",
+          "epochTimeRounded": "1740319200",
+          "time": "7:36"
+        }
+      },
+      {
+        "set": {
+          "time12h": "6:02 pm",
+          "epochTimeRounded": "1740445200",
+          "time": "18:02"
+        },
+        "timeZone": "MST",
+        "rise": {
+          "time12h": "7:34 am",
+          "epochTimeRounded": "1740405600",
+          "time": "7:34"
+        }
+      }
+    ],
+    "metNotes": [],
+    "pastHourly": {
+      "observedAt": "Edmonton Blatchford",
+      "provinceCode": "AB",
+      "hours": [
+        {
+          "timeStamp": "2025-02-19T01:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -21.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -31,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -29.1,
+          "pressure": 103.9,
+          "humidity": 52,
+          "humidityQaValue": 100,
+          "windSpeed": 13,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-19T00:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -20.3,
+          "temperatureQaValue": 100,
+          "feelsLike": -32,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -28.6,
+          "pressure": 104,
+          "humidity": 47,
+          "humidityQaValue": 100,
+          "windSpeed": 23,
+          "windSpeedQaValue": 100,
+          "windGust": 36,
+          "windGustQaValue": 100,
+          "windDirection": "SSE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T23:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -19.9,
+          "temperatureQaValue": 100,
+          "feelsLike": -30,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -27.1,
+          "pressure": 104,
+          "humidity": 53,
+          "humidityQaValue": 100,
+          "windSpeed": 18,
+          "windSpeedQaValue": 100,
+          "windDirection": "SSE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T22:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -19.2,
+          "temperatureQaValue": 100,
+          "feelsLike": -28,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -26.1,
+          "pressure": 104,
+          "humidity": 54,
+          "humidityQaValue": 100,
+          "windSpeed": 15,
+          "windSpeedQaValue": 100,
+          "windDirection": "SSE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T21:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -19.6,
+          "temperatureQaValue": 100,
+          "feelsLike": -28,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -26.5,
+          "pressure": 104,
+          "humidity": 54,
+          "humidityQaValue": 100,
+          "windSpeed": 12,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T20:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -20.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -30,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -27.4,
+          "pressure": 104.1,
+          "humidity": 55,
+          "humidityQaValue": 100,
+          "windSpeed": 15,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T19:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -21.6,
+          "temperatureQaValue": 100,
+          "feelsLike": -31,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -28.3,
+          "pressure": 104.1,
+          "humidity": 55,
+          "humidityQaValue": 100,
+          "windSpeed": 14,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T18:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -23.7,
+          "temperatureQaValue": 100,
+          "feelsLike": -32,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -29.7,
+          "pressure": 104.2,
+          "humidity": 58,
+          "humidityQaValue": 100,
+          "windSpeed": 10,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T17:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -27.3,
+          "temperatureQaValue": 100,
+          "feelsLike": -36,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -32.2,
+          "pressure": 104.3,
+          "humidity": 63,
+          "humidityQaValue": 100,
+          "windSpeed": 11,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T16:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -28.6,
+          "temperatureQaValue": 100,
+          "feelsLike": -36,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -32.6,
+          "pressure": 104.2,
+          "humidity": 69,
+          "humidityQaValue": 100,
+          "windSpeed": 7,
+          "windSpeedQaValue": 100,
+          "windDirection": "ESE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T15:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -29.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -35,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -33.1,
+          "pressure": 104.2,
+          "humidity": 73,
+          "humidityQaValue": 100,
+          "windSpeed": 5,
+          "windSpeedQaValue": 100,
+          "windDirection": "S",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T14:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -29.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -40,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -33.5,
+          "pressure": 104.2,
+          "humidity": 70,
+          "humidityQaValue": 100,
+          "windSpeed": 12,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T13:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -29.6,
+          "temperatureQaValue": 100,
+          "feelsLike": -39,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -33.5,
+          "pressure": 104.1,
+          "humidity": 69,
+          "humidityQaValue": 100,
+          "windSpeed": 11,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T12:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -28.9,
+          "temperatureQaValue": 100,
+          "feelsLike": -35,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -33,
+          "pressure": 104.1,
+          "humidity": 68,
+          "humidityQaValue": 100,
+          "windSpeed": 6,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T11:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -28.9,
+          "temperatureQaValue": 100,
+          "feelsLike": -37,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -32.9,
+          "pressure": 104,
+          "humidity": 69,
+          "humidityQaValue": 100,
+          "windSpeed": 9,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T10:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -28.3,
+          "temperatureQaValue": 100,
+          "feelsLike": -37,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -32.2,
+          "pressure": 103.9,
+          "humidity": 69,
+          "humidityQaValue": 100,
+          "windSpeed": 9,
+          "windSpeedQaValue": 100,
+          "windDirection": "ESE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T09:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -27.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -39,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -31.9,
+          "pressure": 103.8,
+          "humidity": 68,
+          "humidityQaValue": 100,
+          "windSpeed": 15,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T08:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -27.2,
+          "temperatureQaValue": 100,
+          "feelsLike": -37,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -31.5,
+          "pressure": 103.8,
+          "humidity": 67,
+          "humidityQaValue": 100,
+          "windSpeed": 13,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T07:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -26.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -37,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -31.2,
+          "pressure": 103.8,
+          "humidity": 66,
+          "humidityQaValue": 100,
+          "windSpeed": 14,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T06:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -26.3,
+          "temperatureQaValue": 100,
+          "feelsLike": -36,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -30.8,
+          "pressure": 103.7,
+          "humidity": 66,
+          "humidityQaValue": 100,
+          "windSpeed": 12,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T05:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -25.7,
+          "temperatureQaValue": 100,
+          "feelsLike": -38,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -30.4,
+          "pressure": 103.7,
+          "humidity": 65,
+          "humidityQaValue": 100,
+          "windSpeed": 21,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T04:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -24.8,
+          "temperatureQaValue": 100,
+          "feelsLike": -36,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -29.7,
+          "pressure": 103.6,
+          "humidity": 64,
+          "humidityQaValue": 100,
+          "windSpeed": 18,
+          "windSpeedQaValue": 100,
+          "windDirection": "SSE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T03:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -24.4,
+          "temperatureQaValue": 100,
+          "feelsLike": -34,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -29.5,
+          "pressure": 103.6,
+          "humidity": 63,
+          "humidityQaValue": 100,
+          "windSpeed": 14,
+          "windSpeedQaValue": 100,
+          "windDirection": "SE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T02:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -23.6,
+          "temperatureQaValue": 100,
+          "feelsLike": -35,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -28.6,
+          "pressure": 103.4,
+          "humidity": 63,
+          "humidityQaValue": 100,
+          "windSpeed": 19,
+          "windSpeedQaValue": 100,
+          "windGust": 27,
+          "windGustQaValue": 100,
+          "windDirection": "ESE",
+          "windDirectionQaValue": 100
+        },
+        {
+          "timeStamp": "2025-02-18T01:00:00.000Z",
+          "timeZone": "MST",
+          "temperature": -22.7,
+          "temperatureQaValue": 100,
+          "feelsLike": -33,
+          "feelsLikeQaValue": 100,
+          "dewpoint": -27.9,
+          "pressure": 103.4,
+          "humidity": 63,
+          "humidityQaValue": 100,
+          "windSpeed": 17,
+          "windSpeedQaValue": 100,
+          "windDirection": "ESE",
+          "windDirectionQaValue": 100
+        }
+      ]
+    },
+    "aqhiFcst": {
+      "epochTime": 1739923200,
+      "daily": [
+        {
+          "periodName": "Tuesday night",
+          "aqhiVal": 3,
+          "periodID": 2
+        },
+        {
+          "periodName": "Wednesday",
+          "aqhiVal": 3,
+          "periodID": 3
+        },
+        {
+          "periodName": "Wednesday night",
+          "aqhiVal": 3,
+          "periodID": 4
+        },
+        {
+          "periodName": "Thursday",
+          "aqhiVal": 4,
+          "periodID": 5
+        }
+      ]
+    },
+    "aqhiInfo": {
+      "past24Hr": "https://weather.gc.ca/airquality/pages/trends/abaq-001_e.html",
+      "next24Hr": "https://weather.gc.ca/airquality/pages/nextHourlies/abaq-001_e.html",
+      "stationUrl": "https://weather.gc.ca/airquality/pages/multiple_stations/abaq-001_e.html",
+      "locUrl": "https://weather.gc.ca/airquality/pages/abaq-001_e.html",
+      "partnerText": "The AQHI is an initiative of Environment and Climate Change Canada, Health Canada, Alberta Environment and Protected Areas, Alberta Health and Alberta Health Services."
+    },
+    "province": "AB",
+    "tcId": "XEC",
+    "climateId": "3012209",
+    "tc2Id": "SCUA",
+    "climate2Id": "3012220",
+    "wxoPubZoneCode": "ab33",
+    "wxoAqZoneCode": "aq1079",
+    "wxoTsunamiZoneCode": "ab33",
+    "wxoCfZoneCode": "",
+    "timezone": "MST7MDT",
+    "lat": "53.536",
+    "lon": "-113.494",
+    "useNatRadar": false,
+    "alert_nodata_epoch": 0,
+    "mtimes": {
+      "ALERTS": 1739917052,
+      "AQHI": 1739929534,
+      "AQHI_FORECAST": 1739922573,
+      "AQHI_INFO": 0,
+      "DAILY_FORECAST": 1739923200,
+      "HOURLY_OBSERVATION": 1739926858,
+      "HOURLY_FORECAST": 1739930400,
+      "RISESET": 1739862002,
+      "RISESET_NEXT_DAY": 1739862002,
+      "RISEDATA0": 1739862002,
+      "RISEDATA1": 1739862002,
+      "RISEDATA2": 1739862002,
+      "RISEDATA3": 1739862002,
+      "RISEDATA4": 1739862002,
+      "RISEDATA5": 1739862002,
+      "RISEDATA6": 1739862002,
+      "PAST_HOURLY": 1739927154
     }
+  }
 ]
