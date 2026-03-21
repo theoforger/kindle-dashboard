@@ -7,21 +7,26 @@ const DASHBOARD_HEIGHT = 1072;
 // Adjust these values to shift the viewport without changing screenshot dimensions
 const HORIZONTAL_OFFSET = 70;
 const VERTICAL_OFFSET = 860;
+const TIMEZONE = process.env.TIMEZONE ?? "America/Edmonton";
 const WEATHER_LOCATION = {
-    lat: 50.041,
-    lon: -110.677
+  lat: process.env.LATITUDE ? parseFloat(process.env.LATITUDE) : 50.041,
+  lon: process.env.LONGITUDE ? parseFloat(process.env.LONGITUDE) : -110.677,
 };
 
 function formatDateTime() {
-    const date = new Date();
-    return date.toLocaleString('en-US', {
-        day: '2-digit',
-        month: 'short',
-        hour: '2-digit',
-        minute: '2-digit',
-        timeZone: 'America/Edmonton',
-        hour12: true
-    }).replace(',', ' |') + ' MST';
+  const date = new Date();
+  return (
+    date
+      .toLocaleString("en-US", {
+        day: "2-digit",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: TIMEZONE,
+        hour12: true,
+      })
+      .replace(",", " |") + " MST"
+  );
 }
 
 export async function captureWeatherScreenshot(batteryPercentage: number) {

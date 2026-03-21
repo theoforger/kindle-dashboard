@@ -1,10 +1,12 @@
-version: '3'
-
 services:
   kindle-dashboard:
     build: .
     ports:
-      - "10876:8080"  # Single server for both dashboard and battery updates
+      - "10876:8080" # Single server for both dashboard and battery updates
     volumes:
       - ./public:/app/public
-    restart: always 
+    environment:
+      LATITUDE: ${LATITUDE}
+      LONGITUDE: ${LONGITUDE}
+      TIMEZONE: ${TIMEZONE}
+    restart: always
