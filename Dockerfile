@@ -1,4 +1,4 @@
-FROM oven/bun:1.0.35
+FROM oven/bun:1.3
 
 # Install system dependencies for Playwright
 RUN apt-get update && apt-get install -y \
@@ -44,4 +44,4 @@ COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
 # Run the entrypoint script
-CMD ["./entrypoint.sh"] 
+CMD ["./entrypoint.sh"]

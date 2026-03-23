@@ -9,4 +9,5 @@ services:
       LATITUDE: ${LATITUDE}
       LONGITUDE: ${LONGITUDE}
       TIMEZONE: ${TIMEZONE}
+      LANGUAGE: ${LANGUAGE}
     restart: always
