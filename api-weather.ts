@@ -9,6 +9,8 @@ const DASHBOARD_WIDTH = 1448;
 const DASHBOARD_HEIGHT = 1072;
 const PORT = 8080; // Different from the other weather server
 const PUBLIC_DIR = path.join(process.cwd(), "public");
+
+const LANGUAGE = process.env.LANGUAGE === "fr" ? "fr" : "en";
 const TIMEZONE = process.env.TIMEZONE ?? "America/Edmonton";
 const WEATHER_LOCATION = {
   lat: process.env.LATITUDE ? parseFloat(process.env.LATITUDE) : 50.041,
@@ -81,13 +83,13 @@ function getIconSvg(iconCode: string, size: number = 64): string {
 function formatDateTime() {
   const date = new Date();
   return date
-    .toLocaleString("en-US", {
+    .toLocaleString(`${LANGUAGE}-CA`, {
       day: "2-digit",
       month: "short",
       hour: "2-digit",
       minute: "2-digit",
       timeZone: TIMEZONE,
-      hour12: true,
+      hour12: LANGUAGE === "en",
     })
     .replace(",", " |");
 }
@@ -102,13 +104,13 @@ function getBatteryIcon(percentage: number): string {
 async function fetchWeatherData() {
   try {
     const response = await fetch(
-      `https://weather.gc.ca/api/app/en/Location/${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}?type=city`,
+      `https://weather.gc.ca/api/app/${LANGUAGE}/Location/${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}?type=city`,
       {
         headers: {
           Accept: "application/json, text/plain, */*",
           "Cache-Control": "max-age=0,no-cache",
           Pragma: "no-cache",
-          Referer: `https://weather.gc.ca/en/location/index.html?coords=${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}`,
+          Referer: `https://weather.gc.ca/${LANGUAGE}/location/index.html?coords=${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}`,
           "User-Agent":
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         },
@@ -215,9 +217,9 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
           const iconSvg = getIconSvg(hour.iconCode, 48);
           const conditionLength = hour.condition.length;
           const conditionClass =
-            conditionLength > 20
+            conditionLength >= 20
               ? "hourly-condition long-text"
-              : conditionLength > 15
+              : conditionLength >= 15
                 ? "hourly-condition medium-text"
                 : "hourly-condition";
           return `<div class="hourly-item">
@@ -248,7 +250,10 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
         }
 
         // Check if it's a night forecast by looking for "Night" in the label
-        if (forecast.periodLabel && forecast.periodLabel.includes("Night")) {
+        if (
+          (forecast.periodLabel && forecast.periodLabel.includes("Night")) ||
+          forecast.periodLabel.includes("Nuit")
+        ) {
           acc[date].night = forecast;
         } else {
           acc[date].day = forecast;
@@ -646,9 +651,9 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       <div class="section">
         <div class="header-status">
           <span class="${
-            currentCondition.length > 20
+            currentCondition.length >= 20
               ? "current-condition long-text"
-              : currentCondition.length > 15
+              : currentCondition.length >= 15
                 ? "current-condition medium-text"
                 : "current-condition"
           }">${currentCondition}</span>
@@ -659,7 +664,7 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
             <span class="icon">${currentIconSvg}</span>
             <span class="current-temp"><span class="temp-value">${currentTemp}</span>°C</span>
           </div>
-          <span class="current-time"><span class="last-update">Last Update: </span>${currentTime.split("|")[1].trim()}</span>
+          <span class="current-time"><span class="last-update">${LANGUAGE === "fr" ? "Mis à jour à " : "Updated at"}: </span>${currentTime.split("|")[1].trim()}</span>
         </div>
         <div class="current-condition">
             <div class="weather-details">
@@ -668,7 +673,7 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
                 <span>${getIconSvg("42", 48)} ${observation.humidity}%</span>
             </div>
         </div>
-        <div class="aqhi-status">AQHI: ${aqhi.value} (${aqhi.riskText})</div>
+        <div class="aqhi-status">${LANGUAGE === "fr" ? "Cote air santé " : "AQHI"}: ${aqhi.value} (${aqhi.riskText})</div>
       </div>
       <div class="section">
         ${alertHtml}

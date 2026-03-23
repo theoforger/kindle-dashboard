@@ -7,6 +7,8 @@ const DASHBOARD_HEIGHT = 1072;
 // Adjust these values to shift the viewport without changing screenshot dimensions
 const HORIZONTAL_OFFSET = 70;
 const VERTICAL_OFFSET = 860;
+
+const LANGUAGE = process.env.LANGUAGE === "fr" ? "fr" : "en";
 const TIMEZONE = process.env.TIMEZONE ?? "America/Edmonton";
 const WEATHER_LOCATION = {
   lat: process.env.LATITUDE ? parseFloat(process.env.LATITUDE) : 50.041,
@@ -17,13 +19,13 @@ function formatDateTime() {
   const date = new Date();
   return (
     date
-      .toLocaleString("en-US", {
+      .toLocaleString(`${LANGUAGE}-CA`, {
         day: "2-digit",
         month: "short",
         hour: "2-digit",
         minute: "2-digit",
         timeZone: TIMEZONE,
-        hour12: true,
+        hour12: LANGUAGE === "en",
       })
       .replace(",", " |") + " MST"
   );
@@ -42,7 +44,7 @@ export async function captureWeatherScreenshot(batteryPercentage: number) {
   try {
     const page = await context.newPage();
     await page.goto(
-      `https://weather.gc.ca/en/location/index.html?coords=${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}`,
+      `https://weather.gc.ca/${LANGUAGE}/location/index.html?coords=${WEATHER_LOCATION.lat},${WEATHER_LOCATION.lon}`,
     );
 
     // Remove top margin from mrgn-tp-lg class
