@@ -217,9 +217,9 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
           const iconSvg = getIconSvg(hour.iconCode, 48);
           const conditionLength = hour.condition.length;
           const conditionClass =
-            conditionLength >= 20
+            conditionLength > 20
               ? "hourly-condition long-text"
-              : conditionLength >= 15
+              : conditionLength > 15
                 ? "hourly-condition medium-text"
                 : "hourly-condition";
           return `<div class="hourly-item">
@@ -265,7 +265,9 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       dailyHtml = Object.values(groupedForecasts)
         .map((forecast: any) => {
           // Extract just the day from the date label (e.g., "Wed, 19" from "Wed, 19 Feb")
-          const dateLabel = (forecast.label || forecast.date).split(" ").slice(0, 2).join(" ");
+          let dateLabel = (forecast.label || forecast.date).split(" ").slice(0, 2).join(" ");
+          dateLabel = dateLabel === "Aujourd'hui" ? "auj." : dateLabel;
+
           let rowHtml = '<div class="daily-item">';
           rowHtml += `<div class="daily-header">${dateLabel}</div>`;
 
@@ -445,7 +447,15 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       color: var(--text-primary);
     }
 
-    .current-condition, .aqhi-status {
+    .aqhi-status {
+      font-size: min(45px, 3.2vw);
+      font-weight: bold;
+      margin: 4px 0;
+      text-overflow: ellipsis;
+      color: var(--text-secondary);
+    }
+
+    .current-condition {
       font-size: min(51px, 3.4vw);
       font-weight: bold;
       margin: 4px 0;
@@ -651,13 +661,13 @@ async function createWeatherImage(weatherData: any, batteryPercentage: number) {
       <div class="section">
         <div class="header-status">
           <span class="${
-            currentCondition.length >= 20
+            currentCondition.length > 25
               ? "current-condition long-text"
-              : currentCondition.length >= 15
+              : currentCondition.length > 20
                 ? "current-condition medium-text"
                 : "current-condition"
           }">${currentCondition}</span>
-          <span class="date-battery">${getBatteryIcon(batteryPercentage)} ${batteryPercentage}% | ${currentTime.split("|")[0]}</span>
+          <span class="date-battery">${getBatteryIcon(batteryPercentage)} ${batteryPercentage}%</span>
         </div>
         <div class="current-weather">
           <div class="temp-group">
