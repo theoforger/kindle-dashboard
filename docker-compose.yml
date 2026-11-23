@@ -10,4 +10,5 @@ services:
       LONGITUDE: ${LONGITUDE}
       TIMEZONE: ${TIMEZONE}
       LANGUAGE: ${LANGUAGE}
+      ROTATION: ${ROTATION:-90}
     restart: always

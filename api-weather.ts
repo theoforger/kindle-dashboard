@@ -12,6 +12,9 @@ const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 const LANGUAGE = process.env.LANGUAGE === "fr" ? "fr" : "en";
 const TIMEZONE = process.env.TIMEZONE ?? "America/Edmonton";
+const ROTATION = Number.isFinite(parseFloat(process.env.ROTATION ?? ""))
+  ? parseFloat(process.env.ROTATION!)
+  : 90; // Degrees clockwise; use 90 or 270 for a landscape dashboard on a portrait Kindle
 const WEATHER_LOCATION = {
   lat: process.env.LATITUDE ? parseFloat(process.env.LATITUDE) : 50.041,
   lon: process.env.LONGITUDE ? parseFloat(process.env.LONGITUDE) : -110.677,
@@ -161,7 +164,7 @@ export async function captureWeatherScreenshot(batteryPercentage: number) {
     await sharp(buffer)
       .toColorspace("b-w")
       .removeAlpha()
-      .rotate(90)
+      .rotate(ROTATION)
       .png()
       .toFile(path.join(PUBLIC_DIR, "dash.png"));
 

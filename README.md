@@ -120,6 +120,7 @@ docker run -p 8080:8080 kindle-dashboard
 - Images are saved in the `public` directory
 - Runs on port 8080 by default
 - Dashboard dimensions are optimized for Kindle (1448x1072)
+- Image rotation is set with the `ROTATION` environment variable, in degrees clockwise (default `90`; use `270` to flip the other way, `0` for none)
 
 ## 🤝 Contributing
 
